@@ -1,0 +1,11 @@
+prefix=C:/Program Files/Portfolio
+exec_prefix=C:/Program Files/Portfolio/
+libdir=C:/Program Files/Portfolio/lib
+includedir=C:/Program Files/Portfolio/include/assimp
+
+Name: Portfolio
+Description: Import various well-known 3D model formats in an uniform manner.
+Version: 4.0.1
+Libs: -L${libdir} -lassimp
+Libs.private:  
+Cflags: -I${includedir}

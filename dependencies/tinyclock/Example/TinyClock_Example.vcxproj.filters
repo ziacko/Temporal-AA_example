@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\projects\Temporal-AA\dependencies\tinyclock\Example\Example.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\projects\Temporal-AA\dependencies\tinyclock\Include\TinyClock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\projects\Temporal-AA\dependencies\tinyclock\Example\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{40BAE6C4-9B29-3B7A-A23B-21D7A405F107}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EF18E9B1-8A7B-39CB-A614-C2AA45D2E5B6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
